@@ -1,0 +1,38 @@
+## O QUE É O REACT.JS ##
+• React é uma biblioteca Javascript para desenvolvimento de aplicações front-end;
+• A categoria delas é SPA (Single Page Application);
+• Podemos criar uma aplicação com React, ou inserir em um projeto em andamento;
+• A sua arquitetura é baseada em componentes;
+• É mantido pelo Facebook/Meta;
+
+## PRÉ-REQUISITOS PARA RODAR O REACT ##
+• Para iniciar uma aplicação React da maneira convencional precisaremos do Node.js;
+• Através do gerenciador de pacotes npm, é possível iniciar um projeto;
+• Vamos ver como instala Node; Através do site: https://nodejs.org/pt/download
+
+## HELLO WORLD EM REACT ##
+• Para criarmos a nossa aplicação utilizaremos o Vite;
+• Antigamente era muito comum utilizar o create-react-app, porém ele tem uma pior performance;
+• Apenas precisamos digitar no terminal: npm create vite@latest e seguir as opções;
+• Vamos para a prática!
+
+## ESTRUTURA BASE DO REACT ##
+• Há algumas pastas e arquivos muito importantes;
+• node_modules: dependência do projeto;
+• public: assets e arquivos estáticos;
+• src: onde escrevemos o código da aplicação;
+• src/index.js: arquivo de inicialização da aplicação;
+• src/App.js: componente principal inicial (pode ser modificado);
+
+## EXTENSÕES PARA O REACT ##
+• Há diversas extensões interessantes para React no VS Code;
+• A principal e mais utilizada é a: ES7 React Snippets;
+• Ela ajuda a criar rapidamente estruturas que utilizamos em todo o projeto;
+• Vamos instalar!
+
+## PREPARANDO O EMMET PARA O REACT ##
+• O Emmet é uma extensão do VS Code que ajuda a escrever código mais rápido;
+• Mas ela não vem configurada para o React;
+• Vamos acessar: File -> Settings -> Extensions e procurar Emmet;
+• Lá precisamos incluir: javascript -> javascriptreact;
+• Vamos configurar!

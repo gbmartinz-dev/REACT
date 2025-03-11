@@ -1,4 +1,5 @@
 import { GeoForm } from "@/components/GeoForm";
+import { Person } from "@/components/Person";
 
 // Criamos a nossa primeira função de componente que retorna um JSX
 /* function Page() {
@@ -18,6 +19,7 @@ const Page = () => {
       <p>Meu primeiro componente</p>
 
       <GeoForm />
+      <Person />
     </div>
   );
 }

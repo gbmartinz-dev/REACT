@@ -1,15 +1,29 @@
+const getWeekday = (today: Date) => {
+  return new Intl.DateTimeFormat('pt-BR', { weekday: 'long' }).format(new Date(today));
+}
+
 export const Person = () => {
+  const data = {
+    name: "Elon Musk",
+    avatar: "https://files.sunoresearch.com.br/p/uploads/2018/09/Elon-Musk.jpg",
+    descricaoFoto: "Foto de Elon Musk",
+    roles: ['CEO da Tesla', 'CEO da SpaceX']
+  }
+
+  const today: Date = new Date();
+
   return (
     // Tag Fragment serve como um elemento root para englobar outros elementos
     <>
-      <h1>Elon Musk</h1>
-      <img src="https://files.sunoresearch.com.br/p/uploads/2018/09/Elon-Musk.jpg" alt="Elon Musk" className="w-40 rounded-full" />
+      <h1 >Nome: {data.name} - {getWeekday(today)}</h1>
+      <img 
+      src={data.avatar} 
+      alt={data.descricaoFoto}
+      className="w-40 rounded-full" />
       <ul>
-        <li>CEO da Tesla</li>
-        <li>CEO da SpaceX</li>
-        <li>CEO da ...</li>
+        <li>{data.roles[0]}</li>
+        <li>{data.roles[1]}</li>
       </ul>
-      <p>Elon Reeve Musk é um empreendedor e filantropo sul-africano, canadense e americano. Ele é o fundador, CEO e CTO da SpaceX; CEO da Tesla Motors; vice-presidente da OpenAI; fundador e CEO da Neuralink; e co-fundador e presidente da SolarCity.</p>
     </>
   );
 }

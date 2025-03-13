@@ -19,7 +19,18 @@ const Page = () => {
       <p>Meu primeiro componente</p>
 
       <GeoForm />
-      <Person />
+      <Person  
+        name="Elon Musk"
+        avatar="https://files.sunoresearch.com.br/p/uploads/2018/09/Elon-Musk.jpg"
+        descricaoFoto="Foto de Elon Musk"
+        roles={['CEO da Tesla', 'CEO da SpaceX']}
+      />
+      <Person  
+        name="Jeff Bezos"
+        avatar="https://cdn.prod.website-files.com/62e89931273b5c21be76c486/645aabd8f6bb3d0f962d0cce_jeff-bezos-fundador-amazon-foto-divulgacao.jpg"
+        descricaoFoto="Foto de Jeff Bezos"
+        roles={['CEO da Amazon', 'CEO da Blue Origin']}
+      />
     </div>
   );
 }

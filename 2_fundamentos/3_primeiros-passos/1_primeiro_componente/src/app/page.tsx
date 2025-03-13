@@ -31,6 +31,11 @@ const Page = () => {
         descricaoFoto="Foto de Jeff Bezos"
         roles={['CEO da Amazon', 'CEO da Blue Origin']}
       />
+      <Person 
+        name="Gabriel"
+        descricaoFoto="Foto de Gabriel"
+        roles={['Desenvolvedor', 'Estudante']}
+      />
     </div>
   );
 }

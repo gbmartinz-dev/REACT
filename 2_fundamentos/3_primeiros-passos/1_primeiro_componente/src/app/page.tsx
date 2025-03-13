@@ -1,5 +1,6 @@
 import { GeoForm } from "@/components/GeoForm";
 import { Person } from "@/components/Person";
+import { Card } from "@/components/Card";
 
 // Criamos a nossa primeira função de componente que retorna um JSX
 /* function Page() {
@@ -19,6 +20,7 @@ const Page = () => {
       <p>Meu primeiro componente</p>
 
       <GeoForm />
+
       <Person  
         name="Elon Musk"
         avatar="https://files.sunoresearch.com.br/p/uploads/2018/09/Elon-Musk.jpg"
@@ -36,6 +38,13 @@ const Page = () => {
         descricaoFoto="Foto de Gabriel"
         roles={['Desenvolvedor', 'Estudante']}
       />
+
+      <Card>
+        <>
+          <h3 className="text-3xl font-bold italic">"Frase de efeito!"</h3>
+          <p className="text-right text-sm">- Autor Desconhecido</p>
+        </>
+      </Card>
     </div>
   );
 }

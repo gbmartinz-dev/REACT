@@ -39,12 +39,7 @@ const Page = () => {
         roles={['Desenvolvedor', 'Estudante']}
       />
 
-      <Card>
-        <>
-          <h3 className="text-3xl font-bold italic">"Frase de efeito!"</h3>
-          <p className="text-right text-sm">- Autor Desconhecido</p>
-        </>
-      </Card>
+      <Card phrase="Frase TOP!" author="- Algum cara ai" />
     </div>
   );
 }
